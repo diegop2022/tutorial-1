@@ -21,29 +21,26 @@ The regex matching an email is an express that is used to verify that user input
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+**/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/**
 
 ### Anchors
-The anchor for the email validation regex looks like this **/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/**
+The anchors in the email validation regex are **^** and **$**. The caret anchors matches the beginning of the text while the dollar anchor matches the end of the text.
 ### Quantifiers
 
 ### OR Operator
+Contains no **OR** operators
 
 ### Character Classes
-
-### Flags
+The email validation regex contains a digit character class denoted by **\d**. The regex also contains a dot character **"."** which will match any character except the newline character.
 
 ### Grouping and Capturing
+The email validation expression contains group capturing using parentheses**()** to encaption the values between the parentheses grouping them together.
 
 ### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+We see in the expession they use bracket expressions **[]** to determine the range of possible values to be entered in the exp
 
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Written by Diego Pena
+https://github.com/diegop2022 

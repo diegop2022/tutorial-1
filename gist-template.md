@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Matching an Email
 
-Introductory paragraph (replace this with your text)
+Tutorial explaining the regex for verifying a valid user input email address.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex matching an email is an express that is used to verify that user input is a valid email address. Each area of the regex has a unique function to make sures that a user enters in an email address that follows the normalized email address template.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+The anchor for the email validation regex looks like this **/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/**
 ### Quantifiers
 
 ### OR Operator

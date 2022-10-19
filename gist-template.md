@@ -25,10 +25,9 @@ The regex matching an email is an express that is used to verify that user input
 
 ### Anchors
 The anchors in the email validation regex are **^** and **$**. The caret anchors matches the beginning of the text while the dollar anchor matches the end of the text.
-### Quantifiers
 
-### OR Operator
-Contains no **OR** operators
+### Quantifiers
+We have multiple quantifies in the email validation expression starting with the **+** which will match the next character. The second quantifier in the expression is the **{n,m}** quantifier or **{2,6}** as we see in the expression which will match a character from **n** to **m** times or in this case **2** to **6** times.
 
 ### Character Classes
 The email validation regex contains a digit character class denoted by **\d**. The regex also contains a dot character **"."** which will match any character except the newline character.
